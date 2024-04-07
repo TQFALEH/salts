@@ -20,7 +20,6 @@ registerLocaleData(ar);
     AppComponent
   ],
   imports: [
-
     NzButtonModule,
     NzSegmentedModule,
     BrowserModule,
