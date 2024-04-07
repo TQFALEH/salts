@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'salts';
+
+  options = ['Daily', 'Weekly', 'Monthly'];
+
+  handleIndexChange(e: number): void {
+    console.log(e);
+  }
 }
